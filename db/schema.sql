@@ -1,0 +1,6 @@
+-- DROP DATABASE
+DROP DATABASE IF EXISTS workoutdb;
+
+-- CREATE DATABASE
+CREATE DATABASE workoutdb;
+USE workoutdb;

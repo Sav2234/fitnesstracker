@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('../models/workout');
+const db = require('../models/workOut');
 
 mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
@@ -135,3 +135,4 @@ db.Workout.deleteMany({})
     process.exit(1);
   });
 
+seedDatabase();
