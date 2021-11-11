@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Workout = require('../models/workout');
+const Workout = require('../models/data');
 
 mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
