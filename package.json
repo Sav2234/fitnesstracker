@@ -7,13 +7,25 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "seed": "node seeders/seed.js",
+    "type": "module"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "express": "^4.16.3",
     "mongoose": "^5.13.13",
     "morgan": "^1.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sav2234/fitnesstracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Sav2234/fitnesstracker/issues"
+  },
+  "homepage": "https://github.com/Sav2234/fitnesstracker#readme"
 }

@@ -82,3 +82,5 @@ function renderNoWorkoutText() {
 }
 
 initWorkout();
+
+// module.exports = router;
