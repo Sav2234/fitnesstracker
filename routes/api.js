@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Workout = require('../models/workOut');
+const Workout = require('../models/workOut.js');
 
 router.put("/api/workouts/:id", (req, res) => {
     Workout.findByIdAndUpdate(req.params.id, {$push: {exercises: req.body}}, {new: true})
